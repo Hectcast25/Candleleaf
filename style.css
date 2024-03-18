@@ -1,0 +1,91 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 14 mar. 2024, 15:04:42
+    Author     : hecto
+*/
+
+body{
+    
+}
+a{
+  text-decoration: none;
+  color: #E1E1E1;
+  cursor:pointer;
+}
+a:hover{
+    text-decoration: none;
+    color:#E1E1E1;
+}
+
+h1{
+    color: #1D252C;
+    font-size: 40px;
+    font-weight: 600;
+}
+h2{
+    font-size: 22px; 
+    color: #1D252C;
+}
+h3{
+    font-size: 18px;
+    color:#7C8087;
+}
+p{
+   color: #1D252C;
+   font-size: 18px;
+   font-weight: 500;
+}
+.p_color{
+    color:#5E6E89;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light{
+    background-color: #FFFFFF;
+}
+.discovery{
+    font-size: 20.65px;
+}
+.herosect{
+    background-color: rgba(247, 248, 250, 0.5);
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.bg_hero{
+    background-image: url("imagen/candle1.jpg");
+  background-color: #F4FAF0;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+.testimonial{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.imagen_wid{
+    width: 540px;
+    height: 377px;
+}
+.card_wid{
+   width: 16.9rem;
+}
+/* Small devices ()*/
+@media (max-width: 575.98px){ 
+    .card_wid{
+        width: 100%;
+    }
+    .reverse_container{
+        flex-direction:column-reverse;
+    }
+    .imagen_wid{
+     width: 325px;
+     height: 345px;
+    }
+}
